@@ -60,9 +60,11 @@ A preview deploy should not be able to reach a private database just because the
 
 ![One fictional notice](docs/screenshots/notice.png)
 
-## Planned demo
+## Live demo
 
-Not deployed yet. When someone publishes this app, the intended address is https://acme-grant-dashboard.vercel.app. That site does not exist today. The plan is for it to show the same fictional sample, with no database credentials.
+https://acme-grant-dashboard.vercel.app
+
+The public site shows the same fictional sample, with no database credentials.
 
 ## Run it locally
 
