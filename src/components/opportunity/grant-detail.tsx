@@ -1,0 +1,1 @@
+export { GrantDetailView } from "./grant-detail-view";

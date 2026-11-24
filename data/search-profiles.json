@@ -1,0 +1,69 @@
+{
+  "version": 2,
+  "activeProfileId": "default",
+  "updatedAt": "2026-11-24T00:00:00.000Z",
+  "profiles": [
+    {
+      "id": "default",
+      "kind": "default",
+      "name": "Default / Full profile",
+      "description": "Fictional Acme Community Fund profile used by the sample dashboard.",
+      "aboutOrg": "Acme Community Fund is a fictional 501(c)(3). It trains people, runs digital safety workshops, and manages grant-funded programs with local partners. It is not a real organization.",
+      "searchKeywords": [
+        "workforce development",
+        "cybersecurity",
+        "STEM education",
+        "program management",
+        "community college"
+      ],
+      "agencyQueries": [
+        "Department of Labor",
+        "Department of Energy",
+        "National Science Foundation",
+        "USDA"
+      ],
+      "lookingFor": "Nonprofit-eligible grants where the fictional fund could administer the award and hire delivery staff.",
+      "matchCriteria": "Prefer no cash match, allowable indirect costs, operating expenses, and a nonprofit lead applicant.",
+      "poorFit": "Pass on janitorial work, construction, manufacturing-only projects, for-profit-only eligibility, and invitation-only awards.",
+      "selectedWebsites": ["all"],
+      "customWebsites": [],
+      "selectedDomains": ["all"],
+      "customDomains": [],
+      "updatedAt": "2026-11-24T00:00:00.000Z"
+    },
+    {
+      "id": "website",
+      "kind": "website",
+      "name": "Organization website",
+      "description": "Limit a live search to selected public grant sites.",
+      "aboutOrg": "Same fictional profile. This box only changes which public sites a live scan would query.",
+      "searchKeywords": ["workforce development", "cybersecurity", "STEM education"],
+      "agencyQueries": ["Department of Labor", "National Science Foundation"],
+      "lookingFor": "Notices posted on the selected sites.",
+      "matchCriteria": "Prefer no cash match, allowable indirect costs, and a nonprofit lead applicant.",
+      "poorFit": "Pass on janitorial work, construction, and invitation-only awards.",
+      "selectedWebsites": ["all"],
+      "customWebsites": [],
+      "selectedDomains": ["all"],
+      "customDomains": [],
+      "updatedAt": "2026-11-24T00:00:00.000Z"
+    },
+    {
+      "id": "domain",
+      "kind": "domain",
+      "name": "Domain",
+      "description": "Focus a live search on selected topic areas.",
+      "aboutOrg": "Same fictional profile. This box only changes topic keywords.",
+      "searchKeywords": ["workforce development", "STEM education"],
+      "agencyQueries": ["Department of Labor"],
+      "lookingFor": "Notices aligned with the selected topic areas.",
+      "matchCriteria": "Prefer no cash match, allowable indirect costs, and a nonprofit lead applicant.",
+      "poorFit": "Pass on janitorial work, construction, and invitation-only awards.",
+      "selectedWebsites": ["all"],
+      "customWebsites": [],
+      "selectedDomains": ["all"],
+      "customDomains": [],
+      "updatedAt": "2026-11-24T00:00:00.000Z"
+    }
+  ]
+}
